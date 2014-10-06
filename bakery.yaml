@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [JosefinSans-ThinItalic.ttf.ttx, JosefinSans-Thin.ttf.ttx, JosefinSans-SemiBoldItalic.ttf.ttx,
+  JosefinSans-SemiBold.ttf.ttx, JosefinSans-Regular.ttf.ttx, JosefinSans-LightItalic.ttf.ttx,
+  JosefinSans-Light.ttf.ttx, JosefinSans-Italic.ttf.ttx, JosefinSans-BoldItalic.ttf.ttx,
+  JosefinSans-Bold.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
